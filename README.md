@@ -154,8 +154,8 @@ My lifecycle preferences:
 
 ### 9. Register Domain
 
-Register your domain on Route 53 (e.g. `manueldelahoz.com`) associated cost: 15 USD.
-It is also recommended to register the subdomains using *.manueldelahoz.com
+* Register your domain on Route 53 (e.g. `manueldelahoz.com`). Associated cost: 15 USD.
+* It is also recommended to register the subdomains using *.manueldelahoz.com
 
 ---
 
