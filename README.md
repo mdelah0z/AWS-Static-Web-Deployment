@@ -327,11 +327,12 @@ Edit → Build → Upload → Invalidate → Live
 * Lifecycle policy for cost control
 * Versioning for rollback capability
 * Automated deployment script
+* Tagging strategy
 
 ---
 
 ## Author
 
 **Manuel De La Hoz**
-Virtualization & Infrastructure Engineer
+Virtualization & Hybrid Cloud Infrastructure Engineer
 
