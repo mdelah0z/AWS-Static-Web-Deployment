@@ -244,6 +244,18 @@ aws cloudfront create-invalidation `
 
 ---
 
+## Resource Tagging Strategy
+
+| Resource        | Service       | Project           | Owner            | Environment | ManagedBy | Purpose             |
+|----------------|--------------|------------------|------------------|------------|----------|---------------------|
+| Main Bucket    | S3           | PortfolioWebsite | ManuelDeLaHoz    | Production | Manual   | StaticHosting       |
+| CDN            | CloudFront   | PortfolioWebsite | ManuelDeLaHoz    | Production | Manual   | CDN                 |
+| DNS Zone       | Route 53     | PortfolioWebsite | ManuelDeLaHoz    | Production | Manual   | DNS                 |
+| SSL Certificate| ACM          | PortfolioWebsite | ManuelDeLaHoz    | Production | Manual   | SSL                 |
+| Redirect Bucket| S3           | PortfolioWebsite | ManuelDeLaHoz    | Production | Manual   | Redirect            |
+
+---
+
 ## Deployment Flow
 
 ```text
